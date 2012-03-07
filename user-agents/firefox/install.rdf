@@ -20,9 +20,9 @@
 
     <!-- Front End MetaData -->
     <em:name>copper</em:name>
-    <em:description>A tipping service</em:description>
+    <em:description>Bucking the system with a currency of appreciation</em:description>
     <em:creator>Scott Fryxell</em:creator>
-    <em:homepageURL>http://copper.is/extensions</em:homepageURL>
+    <em:homepageURL>http://copper.is/</em:homepageURL>
 
     <em:file>
       <Description
