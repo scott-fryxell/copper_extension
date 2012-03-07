@@ -4,7 +4,7 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>tip@dirtywhitecouch.com</em:id>
+    <em:id>buck@copper.is</em:id>
     <em:version>1.0</em:version>
     <em:type>2</em:type>
 
@@ -19,10 +19,10 @@
     </em:targetApplication>
 
     <!-- Front End MetaData -->
-    <em:name>DirtyWhiteCouch</em:name>
+    <em:name>copper</em:name>
     <em:description>A tipping service</em:description>
     <em:creator>Scott Fryxell</em:creator>
-    <em:homepageURL>http://www.dirtywhitecouch.com/extensions</em:homepageURL>
+    <em:homepageURL>http://copper.is/extensions</em:homepageURL>
 
     <em:file>
       <Description

@@ -1,16 +1,16 @@
 {
-  "name": "DirtyWhiteCouch",
-  "version": "1.0",
-  "description": "A tipping service",
+  "name": "copper",
+  "version": "1.1",
+  "description": "A tipping and appreciation service",
   "background_page": "global.html",
-  "homepage_url": "http://dirtywhitecouch.com/",
-  "icons": { "16": "icon_16.png",
-             "48": "icon_48.png",
-            "128": "icon_128.png"
+  "homepage_url": "http://copper.is/",
+  "icons": { "16": "logo_16.png",
+             "48": "logo_48.png",
+            "128": "logo_128.png"
   },
   "browser_action": {
-    "default_icon": "iou.png",
-    "name": "Tip this page"
+    "default_icon": "logo_16.png",
+    "name": "Buck it"
   },
   "permissions": [
     "tabs", "*://*/"
