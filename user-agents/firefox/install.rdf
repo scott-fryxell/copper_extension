@@ -4,8 +4,8 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>buck@copper.is</em:id>
-    <em:version>1.0</em:version>
+    <em:id>us@copper.is</em:id>
+    <em:version>1.2</em:version>
     <em:type>2</em:type>
 
     <!-- Target Application this extension can install into,
@@ -14,16 +14,16 @@
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
         <em:minVersion>6.*</em:minVersion>
-        <em:maxVersion>9.*</em:maxVersion>
+        <em:maxVersion>13.*</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Front End MetaData -->
     <em:name>copper</em:name>
-    <em:description>Bucking the system with a currency of appreciation</em:description>
+    <em:description>Creating a currency of appreciation</em:description>
     <em:creator>Scott Fryxell</em:creator>
     <em:homepageURL>http://copper.is/</em:homepageURL>
-
+    <em:updateURL>https://github.com/scott-fryxell/copper_extension/raw/master/compiled/update_firefox.rdf</em:updateURL>
     <em:file>
       <Description
         about="urn:mozilla:extension:custombutton"

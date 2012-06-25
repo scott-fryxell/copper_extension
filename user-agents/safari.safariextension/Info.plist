@@ -2,67 +2,67 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Author</key>
-	<string>Scott Fryxell</string>
-	<key>Builder Version</key>
-	<string>7534.53.10</string>
-	<key>CFBundleDisplayName</key>
-	<string>copper</string>
-	<key>CFBundleIdentifier</key>
-	<string>is.copper.safari</string>
-	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
-	<key>CFBundleVersion</key>
-	<string>1</string>
-	<key>Chrome</key>
-	<dict>
-		<key>Global Page</key>
-		<string>global.html</string>
-		<key>Toolbar Items</key>
-		<array>
-			<dict>
-				<key>Command</key>
-				<string>tip_this_page</string>
-				<key>Identifier</key>
-				<string>tip_this_page</string>
-				<key>Image</key>
-				<string>button.png</string>
-				<key>Label</key>
-				<string>IOU</string>
-				<key>Palette Label</key>
-				<string>Tip this page</string>
-			</dict>
-		</array>
-	</dict>
-	<key>Content</key>
-	<dict>
-		<key>Scripts</key>
-		<dict>
-			<key>End</key>
-			<array>
-				<string>tip_this_page.js</string>
-			</array>
-		</dict>
-	</dict>
-	<key>Description</key>
-	<string>A tipping service</string>
-	<key>ExtensionInfoDictionaryVersion</key>
-	<string>1.0</string>
-	<key>Permissions</key>
-	<dict>
-		<key>Website Access</key>
-		<dict>
-			<key>Include Secure Pages</key>
-			<true/>
-			<key>Level</key>
-			<string>All</string>
-		</dict>
-	</dict>
-	<key>Update Manifest URL</key>
-	<string>http://copper.is/extensions/safari_manifest.plist</string>
-	<key>Website</key>
-	<string>http://copper.is</string>
+  <key>Author</key>
+  <string>Scott Fryxell</string>
+  <key>Builder Version</key>
+  <string>7534.55.3</string>
+  <key>CFBundleDisplayName</key>
+  <string>copper</string>
+  <key>CFBundleIdentifier</key>
+  <string>is.copper.safari.badge</string>
+  <key>CFBundleInfoDictionaryVersion</key>
+  <string>6.0</string>
+  <key>CFBundleShortVersionString</key>
+  <string>1.1</string>
+  <key>CFBundleVersion</key>
+  <string>1</string>
+  <key>Chrome</key>
+  <dict>
+    <key>Global Page</key>
+    <string>global.html</string>
+    <key>Toolbar Items</key>
+    <array>
+      <dict>
+        <key>Command</key>
+        <string>tip_this_page</string>
+        <key>Identifier</key>
+        <string>tip_this_page</string>
+        <key>Image</key>
+        <string>button.png</string>
+        <key>Label</key>
+        <string>tip this page</string>
+        <key>Palette Label</key>
+        <string>Tip this page</string>
+      </dict>
+    </array>
+  </dict>
+  <key>Content</key>
+  <dict>
+    <key>Scripts</key>
+    <dict>
+      <key>End</key>
+      <array>
+        <string>tip_this_page.js</string>
+      </array>
+    </dict>
+  </dict>
+  <key>Description</key>
+  <string>A tipping and apreceation service</string>
+  <key>ExtensionInfoDictionaryVersion</key>
+  <string>1.0</string>
+  <key>Permissions</key>
+  <dict>
+    <key>Website Access</key>
+    <dict>
+      <key>Include Secure Pages</key>
+      <true/>
+      <key>Level</key>
+      <string>All</string>
+    </dict>
+  </dict>
+  <key>Update Manifest URL</key>
+  <string>https://github.com/scott-fryxell/copper_extension/raw/master/compiled/update_safari.plist</string>
+  <key>Website</key>
+  <string>http://copper.is</string>
 </dict>
 </plist>

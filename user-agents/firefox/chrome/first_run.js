@@ -27,7 +27,7 @@ function installButton(toolbarId, id, afterId) {
 }
 
 Application.getExtensions(function (extensions) {
-    let extension = extensions.get("tip@dirtywhitecouch.com");
+    let extension = extensions.get("tip@copper.is");
 
     if (extension.firstRun) {
       installButton("nav-bar", "custom-button-1", null);
