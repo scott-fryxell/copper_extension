@@ -33,12 +33,5 @@
         </RDF:li>
       </RDF:Seq>
     </em:updates>
-
-    <!-- A signature is only necessary if your add-on includes an updateKey
-         in its install.rdf. -->
-    <em:signature>MIGTMA0GCSqGSIb3DQEBBQUAA4GBAMO1O2gwSCCth1GwYMgscfaNakpN40PJfOWt
-                  ub2HVdg8+OXMciF8d/9eVWm8eH/IxuxyZlmRZTs3O5tv9eWAY5uBCtqDf1WgTsGk
-                  jrgZow1fITkZI7w0//C8eKdMLAtGueGfNs2IlTd5P/0KH/hf1rPc1wUqEqKCd4+L
-                  BcVq13ad</em:signature>
   </RDF:Description>
 </RDF:RDF>
