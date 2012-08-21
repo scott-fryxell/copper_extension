@@ -1,34 +1,22 @@
 <?xml version="1.0"?>
-
-<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
-
-  <Description about="urn:mozilla:install-manifest">
-    <em:id>us@copper.is</em:id>
-    <em:version>1.2</em:version>
-    <em:type>2</em:type>
-
-    <!-- Target Application this extension can install into,
-         with minimum and maximum supported versions. -->
-    <em:targetApplication>
-      <Description>
-        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
-        <em:minVersion>6.*</em:minVersion>
-        <em:maxVersion>13.*</em:maxVersion>
-      </Description>
-    </em:targetApplication>
-
-    <!-- Front End MetaData -->
-    <em:name>copper</em:name>
-    <em:description>Creating a currency of appreciation</em:description>
-    <em:creator>Scott Fryxell</em:creator>
-    <em:homepageURL>http://copper.is/</em:homepageURL>
-    <em:updateURL>https://github.com/scott-fryxell/copper_extension/raw/master/compiled/update_firefox.rdf</em:updateURL>
-    <em:file>
-      <Description
-        about="urn:mozilla:extension:custombutton"
-        em:package="content/custombutton/" />
-    </em:file>
-  </Description>
-</RDF>
-
+<RDF:RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
+         xmlns:NC="http://home.netscape.com/NC-rdf#"
+         xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <RDF:Description RDF:about="urn:mozilla:extension:file:mbutton"
+                   em:package="content/custombutton/" />
+  <RDF:Description RDF:about="urn:mozilla:install-manifest"
+                   em:id="us@copper.is"
+                   em:name="copper"
+                   em:version="1.2"
+                   em:creator="Scott Fryxell"
+                   em:description="Creating a currency of appreciation"
+                   em:homepageURL="https://www.copper.is/"
+                   em:updateURL="https://github.com/scott-fryxell/copper_extension/raw/master/compiled/update_firefox.rdf">
+    <em:targetApplication RDF:resource="rdf:#$c5qyA1"/>
+    <em:file RDF:resource="urn:mozilla:extension:file:mbutton"/>
+  </RDF:Description>
+  <RDF:Description RDF:about="rdf:#$c5qyA1"
+                   em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
+                   em:minVersion="6.*"
+                   em:maxVersion="13.*" />
+</RDF:RDF>

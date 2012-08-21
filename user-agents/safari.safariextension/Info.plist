@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Scott Fryxell</string>
 	<key>Builder Version</key>
-	<string>7536.25</string>
+	<string>8536.25</string>
 	<key>CFBundleDisplayName</key>
 	<string>copper</string>
 	<key>CFBundleIdentifier</key>
@@ -47,7 +47,7 @@
 		</dict>
 	</dict>
 	<key>Description</key>
-	<string>A tipping and apreceation service</string>
+	<string>A tipping and appreciation service</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
