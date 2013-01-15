@@ -1,9 +1,9 @@
 {
   "name": "copper",
   "manifest_version": 2,
-  "version": "1.3",
+  "version": "1.3.3",
   "description": "A tipping and appreciation service",
-  "background_page": "global.html",
+  "background": { "scripts": ["background.js"] },
   "homepage_url": "https://www.copper.is/",
   "icons": { "16": "logo_16.png",
              "48": "logo_48.png",
@@ -11,10 +11,9 @@
   },
   "browser_action": {
     "default_icon": "logo_16.png",
-    "name": "tip this page"
+    "default_title": "tip this page"
   },
   "permissions": [
-    "tabs", "http://*/*",
-    "tabs", "https://*/*"
+    "tabs", "<all_urls>"
   ]
 }
