@@ -9,24 +9,26 @@
 function installButton(toolbarId, id, afterId) {
   if (!document.getElementById(id)) {
     var toolbar = document.getElementById(toolbarId);
-    var before = toolbar.firstChild;
+
+    // If no afterId is given, then append the item to the toolbar
+    var before = null;
     if (afterId) {
       let elem = document.getElementById(afterId);
       if (elem && elem.parentNode == toolbar)
         before = elem.nextElementSibling;
     }
+
     toolbar.insertItem(id, before);
     toolbar.setAttribute("currentset", toolbar.currentSet);
     document.persist(toolbar.id, "currentset");
-    if (toolbarId == "addon-bar"){
+
+    if (toolbarId == "addon-bar")
       toolbar.collapsed = false;
-    }
   }
 }
-
-Application.getExtensions(function (extensions) {
-    let extension = extensions.get("tip@copper.is");
-    if (extension.firstRun) {
-      installButton("nav-bar", "custom-button-1", null);
-    }
-})
+ 
+if (firstRun) {
+  installButton("nav-bar", "custom-button-1");
+  // The "addon-bar" is available since Firefox 4
+  // installButton("addon-bar", "custom-button-1");
+}
