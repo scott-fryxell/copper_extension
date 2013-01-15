@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Scott Fryxell</string>
 	<key>Builder Version</key>
-	<string>8536.25</string>
+	<string>8536.26.17</string>
 	<key>CFBundleDisplayName</key>
 	<string>copper</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.2</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>Chrome</key>
