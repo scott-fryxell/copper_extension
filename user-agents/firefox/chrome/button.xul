@@ -5,6 +5,7 @@
 <overlay id="custombutton-overlay"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="application/javascript" src="chrome://custombutton/content/first_run.js"/>
+  <script type="application/javascript" src="chrome://custombutton/content/page_load.js"/>
   <script type="application/javascript" src="chrome://custombutton/content/button.js"/>
   
   <!-- Firefox -->
