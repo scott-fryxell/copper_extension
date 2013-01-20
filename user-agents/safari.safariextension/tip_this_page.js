@@ -8,7 +8,7 @@ safari.self.addEventListener("message", function (msgEvent){
   }
 }, false);
 
-if (window.location.host == 'copper.is' || 'copper.dev' || 'copper-stage.herokuapp.com'){
+if (window.location.host == 'copper.is' || window.location.host ==  'copper.dev' || window.location.host ==  'copper-stage.herokuapp.com'){
   var s = window.document.createElement('script');
   s.innerHTML = '$(document).trigger("copper_button_installed")';
   window.document.body.appendChild(s); 
