@@ -3,7 +3,7 @@ var CopperButton = {
     var appcontent = document.getElementById("appcontent");   // browser
     if(appcontent){
       // appcontent.addEventListener("DOMContentLoaded", CopperButton.onPageLoad, true);
-      appcontent.addEventListener("load", CopperButton.onPageLoad, true);
+      appcontent.addEventListener("load", CopperButton.page_load, true);
     }
   },
 
