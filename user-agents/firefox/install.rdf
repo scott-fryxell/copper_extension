@@ -3,20 +3,25 @@
          xmlns:NC="http://home.netscape.com/NC-rdf#"
          xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <RDF:Description RDF:about="urn:mozilla:extension:file:mbutton"
-                   em:package="content/custombutton/" />
+                   em:package="content/copperbutton/" />
   <RDF:Description RDF:about="urn:mozilla:install-manifest"
                    em:id="us@copper.is"
                    em:name="copper"
-                   em:version="1.3"
+                   em:version="1.3.1"
                    em:creator="Scott Fryxell"
                    em:description="Creating a currency of appreciation"
                    em:homepageURL="https://www.copper.is/"
+                   em:iconURL="chrome://copperbutton/content/logo_48.png"
+                   em:icon64URL="chrome://copperbutton/content/logo_64.png"
                    em:updateURL="https://github.com/scott-fryxell/copper_extension/raw/master/compiled/update_firefox.rdf">
+   
     <em:targetApplication RDF:resource="rdf:#$c5qyA1"/>
     <em:file RDF:resource="urn:mozilla:extension:file:mbutton"/>
   </RDF:Description>
   <RDF:Description RDF:about="rdf:#$c5qyA1"
                    em:id="{ec8030f7-c20a-464f-9b0e-13a3a9e97384}"
                    em:minVersion="6.*"
-                   em:maxVersion="13.*" />
+                   em:maxVersion="18.*" />
+
+
 </RDF:RDF>

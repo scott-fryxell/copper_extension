@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/css"
-  href="chrome://custombutton/content/button.css"?>
+  href="chrome://copperbutton/content/button.css"?>
 <!DOCTYPE overlay >
-<overlay id="custombutton-overlay"
+<overlay id="copperbutton-overlay"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/javascript" src="chrome://custombutton/content/first_run.js"/>
-  <script type="application/javascript" src="chrome://custombutton/content/page_load.js"/>
-  <script type="application/javascript" src="chrome://custombutton/content/button.js"/>
+  <script type="application/javascript" src="chrome://copperbutton/content/button.js"/>
   
   <!-- Firefox -->
   <toolbarpalette id="BrowserToolbarPalette">
-    <toolbarbutton id="custom-button-1"/>
+    <toolbarbutton id="copper_button"/>
   </toolbarpalette>
 
   <!-- button details -->
-  <toolbarbutton id="custom-button-1"
-    label="buck the system"
+  <toolbarbutton id="copper_button"
+    label="Copper Tip Button"
     tooltiptext="Tip this page"
-    oncommand="CustomButton[1]()"
-    class="toolbarbutton-1 chromeclass-toolbar-additional custombutton"
+    oncommand="CopperButton.embed_iframe()"
+    class="toolbarbutton-1 chromeclass-toolbar-additional copper_button"
   />
 </overlay>
